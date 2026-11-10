@@ -20,8 +20,8 @@
 <div><label>Ціна автомобіля, €</label><input id="price" type="number" min="0" step=".01" value="5000"></div>
 <div><label>Доставка по Європі, €</label><input id="delivery" type="number" min="0" step=".01" value="500"></div>
 </div><div class="actions"><button id="calculate">Розрахувати</button></div><div id="message" class="status"></div></section>
-<section class="card"><h2>Результат розрахунку</h2><div class="muted">Загальна вартість</div><div class="total" id="grandTotal">— €</div><table>
-<tr><td>Ціна авто</td><td id="outPrice">—</td></tr><tr><td><b>Загальна вартість</b></td><td id="outTotal">—</td></tr><tr><td>Розмитнення</td><td id="outCustoms">—</td></tr><tr><td>Доставка по Європі</td><td id="outDelivery">—</td></tr><tr><td>Ціна послуг</td><td>85,00 €</td></tr><tr><td>SWIFT</td><td id="outSwift">—</td></tr></table></section></div>
+<section class="card"><h2>Результат розрахунку</h2><table>
+<tr><td>Ціна авто</td><td id="outPrice">—</td></tr><tr><td>Розмитнення</td><td id="outCustoms">—</td></tr><tr><td>Доставка по Європі</td><td id="outDelivery">—</td></tr><tr><td>Ціна послуг</td><td>85,00 €</td></tr><tr><td>SWIFT</td><td id="outSwift">—</td></tr></table><div class="muted" style="margin-top:24px">Загальна вартість</div><div class="total" id="grandTotal">— €</div><div><b>Загальна вартість авто: </b><span id="outTotal">—</span></div></section></div>
 <section class="card hidden" id="admin"><h2>Панель адміністратора</h2>
 <div id="loginBox"><div class="grid"><div><label>Email адміністратора</label><input id="email" type="email" autocomplete="username"></div><div><label>Пароль</label><input id="password" type="password" autocomplete="current-password"></div></div><div class="actions"><button id="login">Увійти</button></div></div>
 <div id="settingsBox" class="hidden"><div class="grid"><div><label>Формула для бензину</label><textarea id="formulaPetrol" rows="4"></textarea></div><div><label>Формула для дизеля</label><textarea id="formulaDiesel" rows="4"></textarea></div></div>
